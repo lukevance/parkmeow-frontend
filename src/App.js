@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Box, Grommet, Heading, Paragraph, ResponsiveContext, Text, Form, FormField, Clock, Button } from 'grommet';
+import { Box, Grommet, Heading, Paragraph, ResponsiveContext, Form, FormField, Clock, Button } from 'grommet';
 
 const theme = {
   global: {
@@ -16,7 +16,7 @@ const theme = {
 };
 
 function App() {
-  const [value, setValue] = useState(0);
+  // const [value, setValue] = useState(0);
   const [phone, setPhone] = useState(0);
   const [verifyStatus, setVerifyStatus] = useState(null);
   const [authToken, setAuthToken] = useState(null);
@@ -86,7 +86,7 @@ function App() {
     <Grommet theme={theme}>
       <ResponsiveContext.Consumer>
         {size => {
-          const horizontalSpacing = (size === 'small') ? 'medium' : 'large';
+          // const horizontalSpacing = (size === 'small') ? 'medium' : 'large';
           const topSpacing = (size === 'small') ? 'medium' : 'large';
           return (
             <Box fill>
