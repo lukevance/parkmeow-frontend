@@ -138,6 +138,7 @@ function App() {
                     Success! Your parking expires in {success[0].amount} hours.
                   </Paragraph>
                   <Clock type="digital" />
+                  <iframe src="https://giphy.com/embed/5gXYzsVBmjIsw" width="480" height="352" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/cat-cool-5gXYzsVBmjIsw">via GIPHY</a></p>
                 </div>
                 : null}
                 
